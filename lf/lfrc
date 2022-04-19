@@ -8,6 +8,7 @@ set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml:*.fls:*.out:*.syncte
 
 # Movement 
 map gd cd ~/Documents
-map gU cd ~/UMass
-map gC cd ~/Code
-map gM cd ~/Math
+map gC cd ~/code
+map gH cd ~/github
+map gM cd ~/math
+map gU cd ~/umass
