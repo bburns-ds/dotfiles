@@ -1,4 +1,4 @@
-" Basics:
+"Basics:
     set nocompatible
     set number relativenumber
     set encoding=utf-8

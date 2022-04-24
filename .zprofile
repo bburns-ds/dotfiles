@@ -1,3 +1,8 @@
+# Use GNU coreutils rather than BSD
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:${PATH}"
+export MANPATH="/opt/homebrew/opt/coreutils/libexec/gnuman:${MANPATH}"
+
+# Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Set up autocomplete for pass
@@ -12,6 +17,3 @@ compinit
 		&& export LF_ICONS
 }
 
-# Use GNU coreutils rather than BSD
-export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:${PATH}"
-export MANPATH="/opt/homebrew/opt/coreutils/libexec/gnuman:${MANPATH}"
