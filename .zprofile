@@ -17,3 +17,9 @@ compinit
 		&& export LF_ICONS
 }
 
+# fish-like autocomplete
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# emacs stuff (I don't use emacs right now!)
+# export PATH="/Applications/MacPorts/Emacs.app/Contents/MacOS:$PATH"
+# export PATH="$HOME/.emacs.d/bin:$PATH"
