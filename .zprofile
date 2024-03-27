@@ -1,3 +1,8 @@
+# Setting PATH for Python 3.11
+# The original version is saved in .zprofile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
+export PATH
+
 # Use GNU coreutils rather than BSD
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:${PATH}"
 export MANPATH="/opt/homebrew/opt/coreutils/libexec/gnuman:${MANPATH}"
@@ -17,11 +22,11 @@ compinit
 		&& export LF_ICONS
 }
 
+# Setup zoxide
+eval "$(zoxide init --cmd cd zsh)"
+
 # fish-like autocomplete
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 alias vim="nvim"
 alias ls="lsd -1"
-# emacs stuff (I don't use emacs right now!)
-# export PATH="/Applications/MacPorts/Emacs.app/Contents/MacOS:$PATH"
-# export PATH="$HOME/.emacs.d/bin:$PATH"

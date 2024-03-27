@@ -4,6 +4,11 @@ auto-reload yes
 # Set default browser to firefox
 browser "open -g -a 'Firefox' %u"
 
+highlight feedlist "---- .* ----" yellow default bold
+highlight feedlist ".*0/0.." default default invis
+ignore-article "*" "title =~ \"\\bLCS\\b\""
+ignore-article "*" "title =~ \"\\bLPL Spring\\b\""
+
 # Navigation
 bind-key j down
 bind-key k up
@@ -11,9 +16,10 @@ bind-key d pagedown
 bind-key u pageup
 
 # Colors
-color listnormal cyan default 
+color listnormal white default 
 color listnormal_unread color45 default 
 color listfocus black yellow standout bold
 color listfocus_unread black yellow standout bold
 color info yellow black bold
 color article white default bold
+

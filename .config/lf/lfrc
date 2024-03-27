@@ -1,0 +1,15 @@
+# Basic settings
+set icons true
+# set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml:*.fls:*.out:*.synctex:*.toc:*.fdb_latexmk:*.synctex.gz"
+set hiddenfiles "*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml:*.fls:*.out:*.synctex:*.toc:*.fdb_latexmk:*.synctex.gz"
+#set previewer lf-ueberzug-previewer
+#set cleaner lf-ueberzug-cleaner
+
+# Basic functions
+
+# Movement 
+map gd cd ~/Documents
+map gC cd ~/code
+map gH cd ~/github
+map gM cd ~/math
+map gU cd ~/umass
